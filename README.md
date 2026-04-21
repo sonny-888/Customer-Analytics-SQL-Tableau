@@ -63,6 +63,16 @@ By joining the transaction database with campaign logs, I calculated the efficie
 * **Churn Analysis:** Using a 60-day recency threshold, I identified a **38.4% Churn Rate**. This high churn suggests a need for automated win-back campaigns at the 45-day mark.
 * **The 80/20 Rule:** My segmentation model reveals that **12.3% (Loyal Power Users)** contribute **21.3% of total revenue**, highlighting the importance of the VIP retention strategy.
 
+### 📉 Monthly Revenue & Customer Trend Analysis
+This line chart visualizes total monthly revenue (orange line) alongside monthly active customers (blue area).
+Both metrics show a clear downward trend from 2012 to 2014.
+<img width="2879" height="1741" alt="Screenshot 2026-04-22 004853" src="https://github.com/user-attachments/assets/97012a04-9a62-43bb-b654-b26327e39a29" />
+
+
+* **Key Insight:**  
+Revenue decline is strongly correlated with a drop in active customers.
+This suggests that the business is losing customers over time, and the revenue drop is primarily driven by reduced customer engagement rather than lower spending per customer.
+
 ### 🛒 Behavioral & Product Trends
 
 * **Product Dominance:** **Liquor** is the anchor product of the business, generating **$662,273** nearly double the revenue of any other category.
