@@ -43,6 +43,8 @@ By joining the transaction database with campaign logs, I calculated the efficie
 
 <img width="2879" height="1750" alt="Screenshot 2026-04-19 160937" src="https://github.com/user-attachments/assets/02e56a48-1132-4b2b-b129-dc6c56948d64" />
 
+Fig 1.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency 
+
 | Ad Channel | Conversion Rate (SQL) | Avg. Total Spend | Status |
 | :--- | :---: | :---: | :--- |
 | **Brochure_ad** | **69.0%** | **$1,312** | **Efficiency Leader** |
@@ -55,19 +57,33 @@ By joining the transaction database with campaign logs, I calculated the efficie
 * **Optimization:** **Twitter** is currently a value-sink with the lowest conversion/spend ratio, identifying a clear opportunity for budget reallocation.
 
 ### 🌍 Regional Market Efficiency
+
 * **The Volume Leader:** **Spain (SP)** dominates the portfolio with **$636,151** in total revenue.
 * **The Premium Markets:** While Spain has the volume, **Canada ($635.27)** and **Germany ($631.02)** lead in **Average Spend per Customer**, indicating higher purchasing power in these regions.
+* The Montenegro (ME) shows the highest customer value, with each customer spending an average of $1,040, making it the strongest region in terms of individual customer spend. However, this region contributes very low total revenue because the overall customer base is small.
+
+<img width="1998" height="1623" alt="Screenshot 2026-04-22 115758" src="https://github.com/user-attachments/assets/3a09baec-de23-4632-88c2-b7baedf8c0bc" />
+
+Fig 2.1 — Spain leads in total revenue, while the Montenegro shows the highest average spend per customer.
 
 
 ### 🔁 Retention & Customer Loyalty
+
+<img width="2054" height="1673" alt="Screenshot 2026-04-22 220256" src="https://github.com/user-attachments/assets/a91926de-e743-48a1-bd09-883153b943cc" />
+
+Fig 3.1 — Customer Performance Overview Dashboard
+
+
 * **Churn Analysis:** Using a 60-day recency threshold, I identified a **38.4% Churn Rate**. This high churn suggests a need for automated win-back campaigns at the 45-day mark.
-* **The 80/20 Rule:** My segmentation model reveals that **12.3% (Loyal Power Users)** contribute **21.3% of total revenue**, highlighting the importance of the VIP retention strategy.
+* **The 80/20 Rule:** My segmentation model reveals that **12.7% (Loyal Power Users)** contribute **21.3% of total revenue**, highlighting the importance of the VIP retention strategy.
 
 ### 📉 Monthly Revenue & Customer Trend Analysis
 This line chart visualizes total monthly revenue (orange line) alongside monthly active customers (blue area).
 Both metrics show a clear downward trend from 2012 to 2014.
-<img width="2879" height="1741" alt="Screenshot 2026-04-22 004853" src="https://github.com/user-attachments/assets/97012a04-9a62-43bb-b654-b26327e39a29" />
 
+<img width="2095" height="1661" alt="Screenshot 2026-04-22 131732" src="https://github.com/user-attachments/assets/06e20a95-460d-435b-9479-4b70d6c9175c" />
+
+Fig 4.1 — Monthly Revenue & Customer Activity (2012–2014)
 
 * **Key Insight:**  
 Revenue decline is strongly correlated with a drop in active customers.
@@ -78,9 +94,9 @@ This suggests that the business is losing customers over time, and the revenue d
 * **Product Dominance:** **Liquor** is the anchor product of the business, generating **$662,273** nearly double the revenue of any other category.
 * **Channel Preference:** There is a distinct behavioral shift based on family size: **Households with 0 kids** prefer **In-Store** shopping, while **households with 1 kid** are the primary **Web** purchasers.
 
-<img width="2877" height="1753" alt="Screenshot 2026-04-19 214555" src="https://github.com/user-attachments/assets/4e2e25f8-d437-43af-b676-dd1f40672400" />
+<img width="2194" height="1667" alt="Screenshot 2026-04-22 130928" src="https://github.com/user-attachments/assets/6de79c73-5db1-4c01-b37b-7962b0f7f13a" />
 
-
+Fig 5.1 — Product Revenue Mix: Liquor and Non‑Veg Dominate Overall Sales  
 ---
 
 ## 📂 Repository Structure
