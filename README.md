@@ -69,7 +69,8 @@ Fig 2.1 — Spain leads in total revenue, while the Montenegro shows the highest
 
 ### 🔁 Retention & Customer Loyalty
 
-<img width="2054" height="1673" alt="Screenshot 2026-04-22 220256" src="https://github.com/user-attachments/assets/a91926de-e743-48a1-bd09-883153b943cc" />
+<img width="2090" height="1647" alt="Screenshot 2026-04-23 005415" src="https://github.com/user-attachments/assets/588c683d-19ff-4558-bac2-251d1aaffe73" />
+
 
 Fig 3.1 — Customer Performance Overview Dashboard
 
