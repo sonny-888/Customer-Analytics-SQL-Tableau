@@ -7,7 +7,7 @@ This project demonstrates an end-to-end data pipeline analyzing **2,240+ custome
 ## 🛠️ Tech Stack
 * **Excel:** Initial data audit, structural cleanup, and outlier identification.
 * **PostgreSQL:** Data warehousing using a "Landing Table" strategy and complex SQL transformations.
-* **Tableau:** Visual analytics using the "Noodle" (Relationship) model to link Marketing and Advertising data.
+* **Tableau:** Leveraged Tableau’s Logical Layer (Relationships) to join transaction and campaign data while maintaining correct levels of aggregation.
 * **Markdown:** Documentation and portfolio presentation.
 
 ---
@@ -17,7 +17,7 @@ This project demonstrates an end-to-end data pipeline analyzing **2,240+ custome
 ### 1. The Landing Table Strategy
 To preserve the "Source of Truth," I implemented a landing table strategy in PostgreSQL. I first imported the raw CSV into a staging table using `VARCHAR` types to prevent data loss, then systematically transformed the data:
 * **Schema Definition:** Created a structured table with appropriate data types (`INT`, `DATE`, `NUMERIC`).
-* **Data Casting:** Converted currency strings (e.g., "$84,000") and age strings into integers to enable mathematical analysis.
+* **Data Casting:** Implemented Regex-based ETL transformations to sanitize currency and date strings into analysis-ready formats.
 * **Primary Key Assignment:** Designated the `ID` column as the unique identifier to enable seamless table relationships.
 
 ### 2. Advanced SQL Techniques
@@ -60,7 +60,7 @@ Fig 1.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency
 
 * **The Volume Leader:** **Spain (SP)** dominates the portfolio with **$636,151** in total revenue.
 * **The Premium Markets:** While Spain has the volume, **Canada ($635.27)** and **Germany ($631.02)** lead in **Average Spend per Customer**, indicating higher purchasing power in these regions.
-* The Montenegro (ME) shows the highest customer value, with each customer spending an average of $1,040, making it the strongest region in terms of individual customer spend. However, this region contributes very low total revenue because the overall customer base is small.
+* **The Montenegro Outlier:** Montenegro (ME) exhibits the highest AOV ($1,040), though results are considered exploratory due to a limited sample size compared to primary markets.
 
 <img width="1998" height="1623" alt="Screenshot 2026-04-22 115758" src="https://github.com/user-attachments/assets/3a09baec-de23-4632-88c2-b7baedf8c0bc" />
 
