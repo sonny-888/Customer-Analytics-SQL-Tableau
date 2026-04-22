@@ -43,7 +43,7 @@ By joining the transaction database with campaign logs, I calculated the efficie
 
 <img width="2879" height="1750" alt="Screenshot 2026-04-19 160937" src="https://github.com/user-attachments/assets/02e56a48-1132-4b2b-b129-dc6c56948d64" />
 
-Fig 1.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency 
+Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency 
 
 | Ad Channel | Conversion Rate (SQL) | Avg. Total Spend | Status |
 | :--- | :---: | :---: | :--- |
@@ -64,7 +64,7 @@ Fig 1.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency
 
 <img width="1998" height="1623" alt="Screenshot 2026-04-22 115758" src="https://github.com/user-attachments/assets/3a09baec-de23-4632-88c2-b7baedf8c0bc" />
 
-Fig 2.1 — Spain leads in total revenue, while the Montenegro shows the highest average spend per customer.
+Fig 5.2 — Spain leads in total revenue, while the Montenegro shows the highest average spend per customer.
 
 
 ### 🔁 Retention & Customer Loyalty
@@ -72,7 +72,7 @@ Fig 2.1 — Spain leads in total revenue, while the Montenegro shows the highest
 <img width="2090" height="1647" alt="Screenshot 2026-04-23 005415" src="https://github.com/user-attachments/assets/588c683d-19ff-4558-bac2-251d1aaffe73" />
 
 
-Fig 3.1 — Customer Performance Overview Dashboard
+Fig 5.3 — Customer Performance Overview Dashboard
 
 
 * **Churn Analysis:** Using a 60-day recency threshold, I identified a **38.4% Churn Rate**. This high churn suggests a need for automated win-back campaigns at the 45-day mark.
@@ -84,7 +84,7 @@ Both metrics show a clear downward trend from 2012 to 2014.
 
 <img width="2095" height="1661" alt="Screenshot 2026-04-22 131732" src="https://github.com/user-attachments/assets/06e20a95-460d-435b-9479-4b70d6c9175c" />
 
-Fig 4.1 — Monthly Revenue & Customer Activity (2012–2014)
+Fig 5.4 — Monthly Revenue & Customer Activity (2012–2014)
 
 * **Key Insight:**  
 Revenue decline is strongly correlated with a drop in active customers.
@@ -96,8 +96,8 @@ This suggests that the business is losing customers over time, and the revenue d
 * **Channel Preference:** There is a distinct behavioral shift based on family size: **Households with 0 kids** prefer **In-Store** shopping, while **households with 1 kid** are the primary **Web** purchasers.
 
 <img width="2194" height="1667" alt="Screenshot 2026-04-22 130928" src="https://github.com/user-attachments/assets/6de79c73-5db1-4c01-b37b-7962b0f7f13a" />
-
-Fig 5.1 — Product Revenue Mix: Liquor and Non‑Veg Dominate Overall Sales  
+Fig 5.5 — Product Revenue Mix: Liquor and Non‑Veg Dominate Overall Sales
+  
 ---
 
 ## 📂 Repository Structure
