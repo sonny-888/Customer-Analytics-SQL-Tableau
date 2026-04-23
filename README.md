@@ -14,11 +14,15 @@ This project demonstrates an end-to-end data pipeline analyzing **2,240+ custome
 
 ## 🏗️ Data Engineering & SQL Pipeline
 
-### 1. The Landing Table Strategy
-To preserve the "Source of Truth," I implemented a landing table strategy in PostgreSQL. I first imported the raw CSV into a staging table using `VARCHAR` types to prevent data loss, then systematically transformed the data:
-* **Schema Definition:** Created a structured table with appropriate data types (`INT`, `DATE`, `NUMERIC`).
-* **Data Casting:** Implemented Regex-based ETL transformations to sanitize currency and date strings into analysis-ready formats.
-* **Primary Key Assignment:** Designated the `ID` column as the unique identifier to enable seamless table relationships.
+### 1. The Landing Table StrategyArchitecture:  ELT Pipeline
+I implemented an **ELT (Extract-Load-Transform)** workflow to ensure 100% data integrity during ingestion:
+
+* **Extract & Load:** Sourced raw CSV data and ingested it into PostgreSQL **Landing Tables**. By using `VARCHAR` types for the initial load, I preserved a "Source of Truth" and prevented data loss from the inconsistent date and currency formats found in the source files.
+* **Transform:** Executed SQL-based transformations to convert staging data into a structured production schema:
+    * **Type Casting & Sanitization:** Converted raw strings into `INT`, `DATE`, and `NUMERIC` formats using robust SQL casting.
+    * **Feature Engineering:** Calculated aggregate metrics, such as `Total_Spend` and `Age`, at the database level to optimize downstream analytics.
+    * **Relational Integrity:** Defined `Primary Keys` and filtered "ghost rows" to enable seamless joins between marketing and advertising datasets.
+[View SQL Implementation Scripts here](./sql)
 
 ### 2. Advanced SQL Techniques
 I utilized several advanced SQL methods to prepare data for Tableau:
