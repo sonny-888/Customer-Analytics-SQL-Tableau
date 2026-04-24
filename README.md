@@ -47,7 +47,7 @@ By joining the transaction database with campaign logs, I calculated the efficie
 
 <img width="2879" height="1750" alt="Screenshot 2026-04-19 160937" src="https://github.com/user-attachments/assets/02e56a48-1132-4b2b-b129-dc6c56948d64" />
 
-Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency, Bar height represents total revenue, while color intensity indicates conversion rate.
+Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency, Bar height represents total revenue, while variations in color intensity denote differences in conversion efficiency across channels.
 | Ad Channel | Conversion Rate (SQL) | Avg. Total Spend | Status |
 | :--- | :---: | :---: | :--- |
 | **Brochure_ad** | **69.0%** | **$1,312** | **Efficiency Leader** |
@@ -68,7 +68,7 @@ Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency, Bar hei
 <img width="2060" height="1630" alt="Screenshot 2026-04-24 011043" src="https://github.com/user-attachments/assets/6e7d28f2-79fa-48a4-9fcc-ede86403c79b" />
 
 
-Fig 5.2 — Spain leads in total revenue, while the Montenegro shows the highest average spend per customer.
+Fig 5.2 — Spain leads in total revenue, while Montenegro shows the highest average spend per customer but is excluded as an outlier due to low overall revenue. Canada, the US, and Germany lead among the remaining markets in average spend.
 
 
 ### 5.3. Retention & Customer Loyalty
