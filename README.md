@@ -4,7 +4,7 @@
 ## 1. Project Overview
 This project demonstrates an end-to-end data pipeline analyzing **2,240+ customer records**. The goal was to transform a high-entropy, messy dataset into a relational database and eventually into a high-impact Tableau dashboard. This analysis provides actionable insights into customer demographics, regional revenue trends, and family spending habits.
 
-## 2. Tech Stack 🛠️
+## 2. Tech Stack 
 * **Excel:** Initial data audit, structural cleanup, and outlier identification.
 * **PostgreSQL:** Data warehousing using a "Landing Table" strategy and complex SQL transformations.
 * **Tableau:** Leveraged Tableau’s Logical Layer (Relationships) to join transaction and campaign data while maintaining correct levels of aggregation.
@@ -40,7 +40,7 @@ A critical part of this project was handling the **`marketing_data_EXTREME_MESSY
 
 ---
 
-## 5. Key Business Insights 📈
+## 5. Key Business Insights 
 
 ###  5.1. Advertising Attribution & ROI (The Conversion Leaderboard)
 By joining the transaction database with campaign logs, I calculated the efficiency and average profitability of every marketing touchpoint:
