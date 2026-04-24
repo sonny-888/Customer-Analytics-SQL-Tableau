@@ -47,8 +47,7 @@ By joining the transaction database with campaign logs, I calculated the efficie
 
 <img width="2879" height="1750" alt="Screenshot 2026-04-19 160937" src="https://github.com/user-attachments/assets/02e56a48-1132-4b2b-b129-dc6c56948d64" />
 
-Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency 
-
+Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency, Bar height represents total revenue, while color intensity indicates conversion rate.
 | Ad Channel | Conversion Rate (SQL) | Avg. Total Spend | Status |
 | :--- | :---: | :---: | :--- |
 | **Brochure_ad** | **69.0%** | **$1,312** | **Efficiency Leader** |
