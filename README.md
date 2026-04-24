@@ -1,7 +1,7 @@
 # 📊 Marketing Analytics & Customer Behavior Study
 **A Full-Stack Data Analysis Project: From Raw Messy Data to Executive Insights**
 
-## 📝 Project Overview
+##  Project Overview
 This project demonstrates an end-to-end data pipeline analyzing **2,240+ customer records**. The goal was to transform a high-entropy, messy dataset into a relational database and eventually into a high-impact Tableau dashboard. This analysis provides actionable insights into customer demographics, regional revenue trends, and family spending habits.
 
 ## 🛠️ Tech Stack
@@ -12,7 +12,7 @@ This project demonstrates an end-to-end data pipeline analyzing **2,240+ custome
 
 ---
 
-## 🏗️ Data Engineering & SQL Pipeline
+##  Data Engineering & SQL Pipeline
 
 ### 1. The Landing Table StrategyArchitecture:  ELT Pipeline
 I implemented an **ELT (Extract-Load-Transform)** workflow to ensure 100% data integrity during ingestion:
@@ -32,7 +32,7 @@ I utilized several advanced SQL methods to prepare data for Tableau:
 
 ---
 
-## 🧼 Data Cleaning: The "Before & After"
+##  Data Cleaning: The "Before & After"
 A critical part of this project was handling the **`marketing_data_EXTREME_MESSY.csv`** file, which simulated real-world data corruption:
 * **Date Chaos:** Resolved mixed formats including `DMY`, `MDY`, `YMD`, and text-based dates (e.g., "June 16, 2014").
 * **Case Sensitivity:** Unified `Education` and `Marital_Status` fields which contained mixed UPPER, lower, and Proper casing.
@@ -42,7 +42,7 @@ A critical part of this project was handling the **`marketing_data_EXTREME_MESSY
 
 ## 📈 Key Business Insights
 
-### 🎯 Advertising Attribution & ROI (The Conversion Leaderboard)
+###  Advertising Attribution & ROI (The Conversion Leaderboard)
 By joining the transaction database with campaign logs, I calculated the efficiency and average profitability of every marketing touchpoint:
 
 <img width="2879" height="1750" alt="Screenshot 2026-04-19 160937" src="https://github.com/user-attachments/assets/02e56a48-1132-4b2b-b129-dc6c56948d64" />
@@ -60,7 +60,7 @@ Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency
 * **The Growth Opportunity:** **Brochures** have a massive **69% conversion rate**. Scaling this traditionally "low-volume" channel could yield high returns.
 * **Optimization:** **Twitter** is currently a value-sink with the lowest conversion/spend ratio, identifying a clear opportunity for budget reallocation.
 
-### 🌍 Regional Market Efficiency
+###  Regional Market Efficiency
 
 * **The Volume Leader:** **Spain (SP)** dominates the portfolio with **$636,151** in total revenue.
 * **The Premium Markets:** While Spain has the volume, **Canada ($635.27)** and **Germany ($631.02)** lead in **Average Spend per Customer**, indicating higher purchasing power in these regions.
@@ -71,7 +71,7 @@ Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency
 Fig 5.2 — Spain leads in total revenue, while the Montenegro shows the highest average spend per customer.
 
 
-### 🔁 Retention & Customer Loyalty
+###  Retention & Customer Loyalty
 
 <img width="2090" height="1647" alt="Screenshot 2026-04-23 005415" src="https://github.com/user-attachments/assets/588c683d-19ff-4558-bac2-251d1aaffe73" />
 
@@ -82,7 +82,7 @@ Fig 5.3 — Customer Performance Overview Dashboard
 * **Churn Analysis:** Using a 60-day recency threshold, I identified a **38.4% Churn Rate**. This high churn suggests a need for automated win-back campaigns at the 45-day mark.
 * **The 80/20 Rule:** My segmentation model reveals that **12.7% (Loyal Power Users)** contribute **21.3% of total revenue**, highlighting the importance of the VIP retention strategy.
 
-### 📉 Monthly Revenue & Customer Trend Analysis
+###  Monthly Revenue & Customer Trend Analysis
 This line chart visualizes total monthly revenue (orange line) alongside monthly active customers (blue area).
 Both metrics show a clear downward trend from 2012 to 2014.
 
@@ -94,7 +94,7 @@ Fig 5.4 — Monthly Revenue & Customer Activity (2012–2014)
 Revenue decline is strongly correlated with a drop in active customers.
 This suggests that the business is losing customers over time, and the revenue drop is primarily driven by reduced customer engagement rather than lower spending per customer.
 
-### 🛒 Behavioral & Product Trends
+###  Behavioral & Product Trends
 
 * **Product Dominance:** **Liquor** is the anchor product of the business, generating **$662,273** nearly double the revenue of any other category.
 * **Channel Preference:** There is a distinct behavioral shift based on family size: **Households with 0 kids** prefer **In-Store** shopping, while **households with 1 kid** are the primary **Web** purchasers.
@@ -110,7 +110,7 @@ Fig 5.5 — Product Revenue Mix: Liquor and Non‑Veg Dominate Overall Sales
 * **/presentation:** Executive Summary in PDF format.
 * **README.md:** Project documentation.
 
-## 🚀 How to Reproduce
+##  How to Reproduce
 1. Load the data from `/data` into your PostgreSQL instance using the `schema_setup.sql` script.
 2. Run `analysis_queries.sql` to generate the row-level views.
 3. Connect Tableau to your PostgreSQL server and relate the tables on the `ID` field.
