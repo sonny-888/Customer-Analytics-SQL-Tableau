@@ -68,7 +68,7 @@ Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency, Bar hei
 <img width="2060" height="1630" alt="Screenshot 2026-04-24 011043" src="https://github.com/user-attachments/assets/6e7d28f2-79fa-48a4-9fcc-ede86403c79b" />
 
 
-Fig 5.2 — Spain leads in total revenue, while Montenegro shows the highest average spend per customer but is excluded as an outlier due to low overall revenue. Canada, the US, and Germany lead among the remaining markets in average spend.
+Fig 5.2 — Spain leads in total revenue, while Montenegro (ME) shows the highest average spend per customer but is excluded as an outlier due to low overall revenue. Canada (CA), the US, and Germany (GER) lead among the remaining markets in average spend.
 
 
 ### 5.3. Retention & Customer Loyalty
