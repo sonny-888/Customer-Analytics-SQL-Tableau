@@ -50,7 +50,7 @@ By joining the transaction database with campaign logs, I calculated the efficie
 Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency, Bar height represents total revenue, while variations in color intensity denote differences in conversion efficiency across channels.
 | Ad Channel | Conversion Rate (SQL) | Avg. Total Spend | Status |
 | :--- | :---: | :---: | :--- |
-| **Brochure_ad** | **69.0%** | **$1,312** | **Efficiency Leader** |
+| **Brochure_ad** | **69.0%** | **$1,312** | **Efficiency Leader(But Low Volume)** |
 | **Instagram_ad** | **56.3%** | **$1,616** | **High-Value "Whales"** |
 | **Facebook_ad** | **55.7%** | **$1,485** | **Stable Performer** |
 | **Twitter_ad** | **38.3%** | **$1,131** | **Underperforming** |
