@@ -59,6 +59,8 @@ Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency, Bar hei
 * **The Growth Opportunity:** **Brochures** have a massive **69% conversion rate**. Scaling this traditionally "low-volume" channel could yield high returns.
 * **Optimization:** **Twitter** is currently a value-sink with the lowest conversion/spend ratio, identifying a clear opportunity for budget reallocation.
 
+---
+
 ### 5.2. Regional Market Efficiency
 
 * **The Volume Leader:** **Spain (SP)** dominates the portfolio with **$636,151** in total revenue.
@@ -70,16 +72,28 @@ Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency, Bar hei
 
 Fig 5.2 — Spain leads in total revenue, while Montenegro (ME) shows the highest average spend per customer but is excluded as an outlier due to low overall revenue. Canada (CA), the US, and Germany (GER) lead among the remaining markets in average spend.
 
+---
 
 ### 5.3. Retention & Customer Loyalty
 
 * **Churn Analysis:** Using a 60-day recency threshold, I identified a **38.4% Churn Rate**. This high churn suggests a need for automated win-back campaigns at the 45-day mark.
+
+<img width="1406" height="1125" alt="image" src="https://github.com/user-attachments/assets/1a62fdbd-0b7c-40ac-a695-fc80cbc227fb" />
+Fig 5.3.1 — This scatter plot analyzes the relationship between Recency (average days since last purchase) and Total Campaign Acceptances, segmented by age cohorts. The grey trend line illustrates the negative correlation between time-elapsed and marketing receptivity.
+
+**Key Insight: The "Critical Engagement Window"**
+My analysis identifies a sharp drop-off in marketing receptivity as customers approach the 60-day mark. While the **30–50 age cohorts** maintain high engagement (60–95+ acceptances) near the 50-day threshold, responsiveness collapses shortly thereafter.
+
+#### Strategy: The 45-Day Win-Back Trigger
+* **The Problem:** Traditional "at-risk" status is often defined at 60 or 90 days, but this data shows that by Day 60, the customer has already "checked out" emotionally.
+* **The Solution:** This trendline validates a **Day 45 automated intervention**. By triggering a high-value offer 15 days *before* the 60-day cliff, we capitalize on the high receptivity of the 30–50 age "Power Spenders" before they churn.
+
 * **The 80/20 Rule:** My segmentation model reveals that **12.7% (Loyal Power Users)** contribute **21.3% of total revenue**, highlighting the importance of the VIP retention strategy.
 
 <img width="2090" height="1647" alt="Screenshot 2026-04-23 005415" src="https://github.com/user-attachments/assets/588c683d-19ff-4558-bac2-251d1aaffe73" />
+Fig 5.3.2 — Customer Performance Overview Dashboard
 
-
-Fig 5.3 — Customer Performance Overview Dashboard
+---
 
 ### 5.4. Monthly Revenue & Customer Trend Analysis
 This line chart visualizes total monthly revenue (orange line) alongside monthly active customers (blue area).
@@ -93,6 +107,8 @@ Fig 5.4 — Monthly Revenue & Customer Activity (2012–2014)
 Revenue decline is strongly correlated with a drop in active customers.
 This suggests that the business is losing customers over time, and the revenue drop is primarily driven by reduced customer engagement rather than lower spending per customer.
 
+---
+
 ### 5.5. Behavioral & Product Trends
 
 * **Product Dominance:** **Liquor** is the anchor product of the business, generating **$662,273** nearly double the revenue of any other category.
@@ -100,7 +116,55 @@ This suggests that the business is losing customers over time, and the revenue d
 
 <img width="2194" height="1667" alt="Screenshot 2026-04-22 130928" src="https://github.com/user-attachments/assets/6de79c73-5db1-4c01-b37b-7962b0f7f13a" />
 Fig 5.5 — Product Revenue Mix: Liquor and Non‑Veg Dominate Overall Sales
+
+---
+
+### 5.6 Demographic Deep Dive: The "Ideal Customer Profile" (ICP)
+
+To maximize marketing efficiency, I segmented the dataset by **Academic Attainment** and **Social Architecture**. This allowed me to move beyond broad targeting and define a "Premium Engagement" persona.
+
+<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/c906da6e-0438-4c12-b581-fb97ec2856ca" />
+Fig 5.6.1 — The Education-Spending Correlation 
+
+**Key Insight: The "Premium Tier"**
+There is a direct linear relationship between education levels and purchasing power. **PhD and Graduate-level** customers represent the company's highest value segment, with an average spend of **$673**=nearly **8x higher** than the "Basic" education segment ($82).
+
+* **Strategic Action:** Prioritize premium product lines and high-ticket bundles specifically for the Master/PhD segments to maximize **Average Order Value (AOV)**.
+
+ 
+<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/c99cbc13-6147-49ad-a885-c2f0f83b5b59" />
+Fig 5.6.2 — The Marital Status Engagement Gap
+
+
+**Key Insight: The "Responsiveness Paradox"**
+While "Married" and "Together" cohorts provide the highest raw volume, they are the least responsive to marketing (10–12% response rate). In contrast, **Single and Widow households** are the engagement leaders, showing a **25% response rate**=double that of partnered households.
+
+* **Strategic Action:** Reallocate aggressive promotional spend toward **Single-person households**. This group demonstrates a significantly higher "Propensity to Convert," ensuring a lower Cost Per Acquisition (CPA).
+
+### The "North Star" Customer Persona
+By synthesizing these data points, we can define the business's **High-Value Target**:
+* **Segment:** Highly Educated (Post-Grad) + Single Household.
+* **Behavior:** High AOV ($600+) + High Campaign Sensitivity (25% Conversion).
+* **Marketing Focus:** Premium, lifestyle-focused messaging delivered within the 45-day "Critical Engagement Window."
   
+---
+
+## 5.7. Channel Attribution: Retail vs. Digital Density
+After defining who our high-value customers are, I analyzed where they prefer to transact. By cross-referencing Purchase Density across Education and Age bins, a clear "Phygital" divide emerged.
+
+<img width="1224" height="880" alt="Retail vs  Digital Purchase Density" src="https://github.com/user-attachments/assets/b504fbd3-1ea0-4d0f-8593-735afa1e932a" />
+Fig 5.7 —Omni-channel Purchase Density: Physical vs. Digital Channels
+
+**Key Insight: The "High-Value" Retail Anchor**
+**Retail Dominance:** Physical store purchases are the primary revenue driver across all demographics. Most notably, the 60+ PhD segment shows the highest density of walk-in purchases, suggesting a preference for personalized service or tactile shopping experiences.
+
+**The Digital Gap:** There is a significant underutilization of Web channels among younger, highly-educated cohorts (Ages 20–40). While they are tech-literate, their purchase density remains higher in-store, indicating our current digital experience may lack the "premium" feel of the retail environment.
+
+**Strategic Recommendation:** The Omnichannel Bridge
+To maximize the "Executive Scholar" persona’s value, the business should implement a BOPIS (Buy Online, Pick Up In-Store) strategy.
+
+**The Goal:** Use digital channels for the initial transaction (Instagram/Web) but leverage the physical store for fulfillment to maintain the high-touch relationship our Master/PhD customers prefer.
+
 ---
 
 ## 📂 Repository Structure
