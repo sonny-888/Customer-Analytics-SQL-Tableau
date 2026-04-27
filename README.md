@@ -123,7 +123,8 @@ Fig 5.5 — Product Revenue Mix: Liquor and Non‑Veg Dominate Overall Sales
 
 To maximize marketing efficiency, I segmented the dataset by **Academic Attainment** and **Social Architecture**. This allowed me to move beyond broad targeting and define a "Premium Engagement" persona.
 
-<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/c906da6e-0438-4c12-b581-fb97ec2856ca" />
+<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/1b709699-3ad5-4da1-ae6c-633e4f5fbf53" />
+
 Fig 5.6.1 — The Education-Spending Correlation 
 
 **Key Insight: The "Premium Tier"**
@@ -131,8 +132,8 @@ There is a direct linear relationship between education levels and purchasing po
 
 * **Strategic Action:** Prioritize premium product lines and high-ticket bundles specifically for the Master/PhD segments to maximize **Average Order Value (AOV)**.
 
- 
-<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/c99cbc13-6147-49ad-a885-c2f0f83b5b59" />
+<img width="752" height="452" alt="image" src="https://github.com/user-attachments/assets/d06af954-c13c-472a-81f0-848be2e797bc" />
+
 Fig 5.6.2 — The Marital Status Engagement Gap
 
 
@@ -152,7 +153,8 @@ By synthesizing these data points, we can define the business's **High-Value Tar
 ## 5.7. Channel Attribution: Retail vs. Digital Density
 After defining who our high-value customers are, I analyzed where they prefer to transact. By cross-referencing Purchase Density across Education and Age bins, a clear "Phygital" divide emerged.
 
-<img width="1224" height="880" alt="Retail vs  Digital Purchase Density" src="https://github.com/user-attachments/assets/b504fbd3-1ea0-4d0f-8593-735afa1e932a" />
+<img width="1224" height="936" alt="Customer Purchase Velocity In-Store vs  Digital Channels" src="https://github.com/user-attachments/assets/f93080f2-42a0-4c6c-86e1-6f0ae834b63f" />
+
 Fig 5.7 —Omni-channel Purchase Density: Physical vs. Digital Channels
 
 **Key Insight: The "High-Value" Retail Anchor**
@@ -179,4 +181,17 @@ To maximize the "Executive Scholar" persona’s value, the business should imple
 3. Connect Tableau to your PostgreSQL server and relate the tables on the `ID` field.
 
 ---
+
+##  About Me
+
+Business-minded analyst focused on:
+
+* Data Analytics
+* Marketing Analytics 
+* Marketing Intelligenc
+* Business Intelligenc
+* Revenue Growth
+* Customer Behavior
+* Strategy
+  
 **Contact:** Sharath Sista | https://www.linkedin.com/in/sharath-chandra-2bb604377/ 
