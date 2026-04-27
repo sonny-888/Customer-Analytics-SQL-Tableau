@@ -181,17 +181,15 @@ To maximize the "Executive Scholar" persona’s value, the business should imple
 3. Connect Tableau to your PostgreSQL server and relate the tables on the `ID` field.
 
 ---
+## About Me
 
-##  About Me
+I am a business-minded analyst with a Masters degree in Management, dedicated to bridging the gap between complex data engineering and executive decision-making. My work focuses on:
 
-Business-minded analyst focused on:
-
+* **Growth & Revenue:** Driving sustainable revenue growth through data-backed strategies.
+* **Marketing Intelligence:** Optimizing campaign ROI and attribution modeling.
+* **Customer Behavior:** Analyzing churn, retention, and lifecycle segments to increase CLV.
+* **Business Intelligence:** Transforming raw, messy datasets into streamlined, automated reporting pipelines.
 * Data Analytics
-* Marketing Analytics 
-* Marketing Intelligenc
-* Business Intelligenc
-* Revenue Growth
-* Customer Behavior
 * Strategy
   
 **Contact:** Sharath Sista | https://www.linkedin.com/in/sharath-chandra-2bb604377/ 
