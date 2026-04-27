@@ -189,7 +189,7 @@ I am a business-minded analyst with a Masters degree in Management, dedicated to
 * **Marketing Intelligence:** Optimizing campaign ROI and attribution modeling.
 * **Customer Behavior:** Analyzing churn, retention, and lifecycle segments to increase CLV.
 * **Business Intelligence:** Transforming raw, messy datasets into streamlined, automated reporting pipelines.
-* Data Analytics
-* Strategy
+* **Data Analytics**
+* **Strategy**
   
 **Contact:** Sharath Sista | https://www.linkedin.com/in/sharath-chandra-2bb604377/ 
