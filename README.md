@@ -172,7 +172,7 @@ To maximize the "Executive Scholar" persona’s value, the business should imple
 ## 📂 Repository Structure
 * **/data:** Contains `RAW_MESSY.csv` and the final cleaned datasets.
 * **/sql:** `schema_setup.sql`, `data_transformation.sql` and `analysis_queries.sql` containing the SQL logic.
-* **/presentation:** Executive Summary in PDF format, and Power-point Presentation in PDF Format.
+* **/presentation:** Executive Summary and Power-point Presentation in PDF Format.
 * **README.md:** Project documentation.
 
 ##  How to Reproduce
