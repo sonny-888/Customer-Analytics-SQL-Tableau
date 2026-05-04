@@ -58,6 +58,23 @@ Fig 5.1 — Marketing Channel Leaders: Revenue vs Conversion Efficiency, Bar hei
 * **Top Performer:** **Instagram** is the most valuable digital channel; while its conversion rate is similar to Facebook, it attracts "Power Spenders" who spend **$131 more** on average.
 * **The Growth Opportunity:** **Brochures** have a massive **69% conversion rate**. Scaling this traditionally "low-volume" channel could yield high returns.
 * **Optimization:** **Twitter** is currently a value-sink with the lowest conversion/spend ratio, identifying a clear opportunity for budget reallocation.
+  
+### 5.1.1. Geographic Channel Supremacy: Platform Mapping
+
+#### **Visual Strategy: Icon-Based Mapping**
+To provide an "at-a-glance" executive summary, I utilized a **Shape Map** in Tableau. By assigning brand-specific icons to the top-performing channel in each region, stakeholder clarity is maximized without the need for dense data tables.
+
+<img width="1406" height="1125" alt="image" src="https://github.com/user-attachments/assets/3ba50dd5-165c-4b2e-912b-2aee5613e8ec" />
+Fig 5.1.1 - Leading Advertising Channels by Territory
+
+#### **Strategic Insights**
+#### **Key Data Observations (based on Fig 5.1.1)**
+*   **Instagram Dominance (SP):** Instagram is the primary driver in Spain, representing the highest single-channel success volume in the entire dataset.
+*   **Twitter Hubs (CA, GER):** Twitter shows its strongest ROI in the Canadian and German markets, outperforming all other platforms in those regions.
+*   **The Bulkmail Surprise (IND, US, ME):** Traditional Bulkmail remains the #1 conversion tool for India, the United States, and the Middle East, suggesting a demographic that prefers direct-to-inbox or physical outreach.
+*   **Multi-Channel Synergy (SA):** Saudi Arabia demonstrates the most balanced mix, where Instagram and Bulkmail work together to drive conversions.
+
+> **Technical Note**: This visualization was built by joining `production_marketing` and `production_ads` on the `ID` field and utilizing the `UNNEST` function to rank campaign responses.
 
 ---
 
@@ -116,6 +133,22 @@ This suggests that the business is losing customers over time, and the revenue d
 
 <img width="2194" height="1667" alt="Screenshot 2026-04-22 130928" src="https://github.com/user-attachments/assets/6de79c73-5db1-4c01-b37b-7962b0f7f13a" />
 Fig 5.5 — Product Revenue Mix: Liquor and Non‑Veg Dominate Overall Sales
+
+### Executive Business Insight: Global Product Dominance
+
+#### **Core Finding: Product-Market Fit Uniformity**
+Our cross-territory analysis reveals that **Liquor** is the primary revenue driver in every geographic market analyzed. Despite significant differences in customer demographics, education levels, and regional income, the preference for this category remains a universal constant across the dataset.
+
+#### **Strategic Implications**
+*   **Global Campaign Scalability:** Since the lead product is consistent across all eight countries, the marketing department can utilize a **standardized "Hero Product" strategy**. This reduces the overhead costs associated with creating unique, product-specific creative assets for different regions.
+*   **Revenue Concentration:** In our largest market, **Spain (SP)**, Liquor sales alone exceeded **$324,299**, representing the highest concentration of category capital. This identifies Spain as the ideal "test-bed" for new sub-category launches or premium tiering.
+*   **Inventory Optimization:** With a predictable top performer globally, supply chain logistics can prioritize liquor inventory levels across all distribution centers with high confidence in turnover rates.
+<img width="1606" height="1125" alt="image" src="https://github.com/user-attachments/assets/18ee7404-c70e-4bb0-b626-439389d58419" />
+
+
+Fig 5.5.1 — Global Market Dominance: Liquor as the Primary Revenue Driver
+
+> **Technical Note:** This insight was derived by joining demographic data with product-specific campaign performance via PostgreSQL and visualized in Tableau to identify regional outliers.
 
 ---
 
